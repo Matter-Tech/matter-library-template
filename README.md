@@ -5,6 +5,11 @@
 - [Installation](#installation)
 - [License](#license)
 
+## Getting started
+
+After you have created a project using this template, rename all occurrences of *matter_library_template*
+to the new library's name.
+
 ## Installation
 
 ```console
