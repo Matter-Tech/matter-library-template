@@ -24,9 +24,9 @@ dependencies = []
 dynamic = ["version"]
 
 [project.urls]
-Documentation = "https://github.com/unknown/matter-library-template#readme"
-Issues = "https://github.com/unknown/matter-library-template/issues"
-Source = "https://github.com/unknown/matter-library-template"
+Documentation = "https://github.com/Matter-Tech/matter-library-template#readme"
+Issues = "https://github.com/Matter-Tech/matter-library-template/issues"
+Source = "https://github.com/Matter-Tech/matter-library-template"
 
 [tool.hatch.version]
 path = "matter_library_template/__about__.py"
