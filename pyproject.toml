@@ -16,7 +16,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = ["matter-exceptions==0.1.1"]
 dynamic = ["version"]
 
 [project.urls]
