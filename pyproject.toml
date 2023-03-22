@@ -37,7 +37,7 @@ dependencies = [
 ]
 
 [tool.hatch.envs.default.scripts]
-test = "pytest  -W error --cov-report=term-missing --cov-config=pyproject.toml --cov=matter_exceptions --cov=tests {args}"
+test = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=matter_exceptions --cov=tests {args}"
 no-cov = "test --no-cov {args}"
 typing = "mypy --install-types --non-interactive {args:matter_exceptions tests}"
 style = [
@@ -76,6 +76,11 @@ exclude_lines = [
     "if TYPE_CHECKING:",
 ]
 fail_under=95
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+addopts = "-x"
+filterwarnings = ["error"]
 
 [build-system]
 requires = ["hatchling"]
