@@ -61,3 +61,11 @@ We are using [semantic version](https://semver.org/), if you are doing a bug fix
 ```console
 hatch version fix
 ```
+
+## Github workflows
+
+If you want to reuse fully the github actions defined by this template make sure your [workflow permissions for Actions](/settings/actions) settings is configured as followed: 
+
+
+![image](https://user-images.githubusercontent.com/349498/227478670-37eed4c1-151a-4bd7-8e97-ed3395047942.png)
+
